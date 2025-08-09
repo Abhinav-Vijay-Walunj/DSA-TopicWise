@@ -1,0 +1,72 @@
+1️⃣ stack
+Function	Description	Time Complexity
+push(x)	Add element at top	O(1)
+pop()	Remove top element	O(1)
+top()	Access top element	O(1)
+empty()	Check if empty	O(1)
+size()	Number of elements	O(1)
+emplace(args...)	Construct element in-place at top	O(1)
+swap(s2)	Swap contents with another stack	O(1)
+
+2️⃣ queue
+Function	Description	Time Complexity
+push(x)	Add element at back	O(1)
+pop()	Remove front element	O(1)
+front()	Access front element	O(1)
+back()	Access last element	O(1)
+empty()	Check if empty	O(1)
+size()	Number of elements	O(1)
+emplace(args...)	Construct element in-place at back	O(1)
+swap(q2)	Swap contents with another queue	O(1)
+
+3️⃣ priority_queue (Heap)
+Function	Description	Time Complexity
+push(x)	Insert element	O(log n)
+pop()	Remove top (max/min) element	O(log n)
+top()	Access top element	O(1)
+empty()	Check if empty	O(1)
+size()	Number of elements	O(1)
+emplace(args...)	Construct element in-place	O(log n)
+swap(pq2)	Swap contents with another priority_queue	O(1)
+
+4️⃣ deque (Double-Ended Queue)
+Function	Description	Time Complexity
+push_back(x)	Add element at back	O(1)
+push_front(x)	Add element at front	O(1)
+pop_back()	Remove last element	O(1)
+pop_front()	Remove first element	O(1)
+front()	Access front element	O(1)
+back()	Access last element	O(1)
+empty()	Check if empty	O(1)
+size()	Number of elements	O(1)
+at(i)	Access element at index with bounds check	O(1)
+operator[i]	Access element at index without bounds check	O(1)
+clear()	Remove all elements	O(n)
+insert(pos, x)	Insert element at position	O(n)
+erase(pos)	Remove element at position	O(n)
+emplace_front(args...)	Construct in-place at front	O(1)
+emplace_back(args...)	Construct in-place at back	O(1)
+swap(d2)	Swap with another deque	O(1)
+
+5️⃣ list (Doubly Linked List)
+Function	Description	Time Complexity
+push_back(x)	Add element at back	O(1)
+push_front(x)	Add element at front	O(1)
+pop_back()	Remove last element	O(1)
+pop_front()	Remove first element	O(1)
+front()	Access front element	O(1)
+back()	Access last element	O(1)
+empty()	Check if empty	O(1)
+size()	Number of elements	O(1)
+insert(pos, x)	Insert before given position	O(1) if pos is known
+erase(pos)	Remove element at position	O(1) if pos is known
+remove(val)	Remove all elements with value val	O(n)
+clear()	Remove all elements	O(n)
+emplace(pos, args...)	Construct in-place before position	O(1)
+emplace_front(args...)	Construct in-place at front	O(1)
+emplace_back(args...)	Construct in-place at back	O(1)
+reverse()	Reverse list	O(n)
+sort()	Sort elements	O(n log n)
+merge(l2)	Merge two sorted lists	O(n)
+unique()	Remove consecutive duplicates	O(n)
+swap(l2)	Swap with another list	O(1)
