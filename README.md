@@ -31,6 +31,3 @@ This is Data Structure and Algorithm - Notes and Codes Repo
 9. Trie by Striver <br/>
     Videos Link : https://youtube.com/playlist?list=PLgUwDviBIf0pcIDCZnxhv0LkHf5KzG9zp
 
-## License
-
-[MIT License](LICENSE)
